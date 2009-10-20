@@ -37,6 +37,9 @@ class SSHMenuAppDelegate(NSObject):
         self.load_menu_items()
         
         self.statusSub.addItem_(NSMenuItem.separatorItem())
+        #self.statusSub.addItem_(
+        #    NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Preferences', 'terminate:', '')
+        #    )
         self.statusSub.addItem_(
             NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Quit', 'terminate:', '')
             )
@@ -44,6 +47,7 @@ class SSHMenuAppDelegate(NSObject):
         self.statusItem.setMenu_(self.statusSub)
 
     def load_menu_items(self):
+        """Creates the menu itens from the configuration file"""
         conf_path = os.path.join(NSHomeDirectory(), '.sshmenu')
             
         try:
