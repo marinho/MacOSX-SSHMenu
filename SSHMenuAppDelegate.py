@@ -8,25 +8,18 @@
 
 import os
 
+try:
+    import yaml
+except ImportError:
+    import sys
+    sys.path.append('/Library/Python/2.5/site-packages/')
+    import yaml
+
 from objc import IBAction
 from Foundation import *
 from AppKit import *
-#import appscript
-
-class SSHConnection(object):
-    host = str()
-    title = str()
-    
-    def __init__(self, **kwargs):
-        for k,v in kwargs.items():
-            setattr(self, k, v)
 
 class SSHMenuAppDelegate(NSObject):
-    ssh_connections = [
-        SSHConnection(host='marinho@sistema.amigosdoolair.com.br', title='Agittus - Amigos do Olair'),
-        SSHConnection(host='marinho@www.euprecisode.com.br', title='EuPrecisoDe'),
-    ]
-    
     menu_connections = {}
     
     def applicationDidFinishLaunching_(self, sender):
@@ -40,25 +33,41 @@ class SSHMenuAppDelegate(NSObject):
         
         # Sub menu
         self.statusSub = NSMenu.alloc().init()
+
+        self.load_menu_items()
         
-        for ssh_conn in self.ssh_connections:
-            menuitem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(
-                ssh_conn.title, self.executeSSHConnection, '',
-                )
-            self.menu_connections[menuitem] = ssh_conn
-            self.statusSub.addItem_(menuitem)
-        
-        menuitem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Quit', 'terminate:', '')
-        self.statusSub.addItem_(menuitem)
+        self.statusSub.addItem_(NSMenuItem.separatorItem())
+        self.statusSub.addItem_(
+            NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Quit', 'terminate:', '')
+            )
         
         self.statusItem.setMenu_(self.statusSub)
+
+    def load_menu_items(self):
+        conf_path = os.path.join(NSHomeDirectory(), '.sshmenu')
+            
+        try:
+            fp = file(conf_path)
+        except IOError:
+            return
+        
+        data = yaml.load(fp)
+        
+        for item in data['items']:
+            menuitem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(
+                item['title'], self.executeSSHConnection, '',
+                )
+            self.menu_connections[menuitem] = item
+            self.statusSub.addItem_(menuitem)
+            
+        fp.close()
 
     @IBAction
     def executeSSHConnection(self, sender):
         NSLog('Executing executeSSHConnection method')
-        NSLog(self.menu_connections[sender].host)
+        NSLog(self.menu_connections[sender]['sshparams'])
         
         # Launchs the task on Terminal
-        cmd = '/usr/bin/ssh '+self.menu_connections[sender].host
+        cmd = '/usr/bin/ssh '+self.menu_connections[sender]['sshparams']
         script = NSAppleScript.alloc().initWithSource_("tell application \"Terminal\" to do script \"%s\""%cmd)
         script.executeAndReturnError_(None)

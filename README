@@ -1,0 +1,12 @@
+How to Install
+--------------
+
+* First, you must have PyYAML installed (sudo easy_install PyYAML)
+* Second, you copy the file 'sshmenu-example' as '~/.sshmenu', in YAML format (open the file and you will understand how to change it to fill with your SSH connections)
+* Later you just run the file Debug/SSHMenu.app
+* Done
+
+Depends on
+----------
+
+* PyYAML - http://pyyaml.org/

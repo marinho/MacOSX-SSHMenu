@@ -1,0 +1,8 @@
+--- 
+items: 
+- title: Server1
+  sshparams: user@server1.com.x
+- title: Server with port
+  sshparams: myserver.com -p 2222
+- title: SourceForge.Net
+  sshparams: user,project@shell.sf.net -t create
