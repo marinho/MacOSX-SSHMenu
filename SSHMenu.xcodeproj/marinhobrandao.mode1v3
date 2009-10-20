@@ -322,12 +322,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A15522BE108E18B000915434</string>
+										<string>A1A60901108E1A0700F07955</string>
 										<key>history</key>
 										<array>
 											<string>A1518881108DD98C00495307</string>
 											<string>A1518918108DFA3300495307</string>
-											<string>A1EEEFFD108E187300CD2A03</string>
+											<string>A15522C1108E192500915434</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -391,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A15522BF108E18B000915434</string>
+				<string>A1A608FC108E196500F07955</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A15522C0108E18B000915434</string>
+				<string>A1A608FD108E196500F07955</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,6 +527,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>A198510F108DCD8A00650372</string>
 		<string>/arquivos/Lab/XCode Test/SSHMenu/SSHMenu.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -607,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A198510F108DCD8A00650372</string>
-				<string>A1EEEFCD108E113A00CD2A03</string>
+				<string>A1A60902108E1A0700F07955</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -649,8 +652,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 202}}</string>
-											<string>{{316, 0}, {378, 202}}</string>
+											<string>{{0, 0}, {316, 203}}</string>
+											<string>{{316, 0}, {378, 203}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -665,8 +668,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 202}}</string>
-											<string>{{0, 202}, {694, 179}}</string>
+											<string>{{0, 0}, {694, 203}}</string>
+											<string>{{0, 203}, {694, 178}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -699,7 +702,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 202}}</string>
+									<string>{{316, 0}, {378, 203}}</string>
 									<key>RubberWindowFrame</key>
 									<string>267 296 694 422 0 0 1280 778 </string>
 								</dict>
@@ -727,13 +730,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>A1EEEFCE108E113A00CD2A03</string>
+				<string>A1A60903108E1A0700F07955</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>A1EEEFCF108E113A00CD2A03</string>
-				<string>A1EEEFD0108E113A00CD2A03</string>
-				<string>A1EEEFD1108E113A00CD2A03</string>
-				<string>A1EEEFD2108E113A00CD2A03</string>
-				<string>A1EEEFD3108E113A00CD2A03</string>
+				<string>A1A60904108E1A0700F07955</string>
+				<string>A1A60905108E1A0700F07955</string>
+				<string>A1A60906108E1A0700F07955</string>
+				<string>A1A60907108E1A0700F07955</string>
+				<string>A1A60908108E1A0700F07955</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -860,8 +863,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -897,7 +898,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>A1EEEFD4108E113A00CD2A03</string>
+				<string>A1A60909108E1A0700F07955</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -907,7 +908,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

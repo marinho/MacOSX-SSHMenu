@@ -10,7 +10,7 @@ import os
 
 try:
     import yaml
-except ImportError:
+except ImportError: # FIXME
     import sys
     sys.path.append('/Library/Python/2.5/site-packages/')
     import yaml
@@ -70,4 +70,8 @@ class SSHMenuAppDelegate(NSObject):
         # Launchs the task on Terminal
         cmd = '/usr/bin/ssh '+self.menu_connections[sender]['sshparams']
         script = NSAppleScript.alloc().initWithSource_("tell application \"Terminal\" to do script \"%s\""%cmd)
+        script.executeAndReturnError_(None)
+        
+        # Brings the Terminal window to front
+        script = NSAppleScript.alloc().initWithSource_("tell application \"Terminal\" to activate")
         script.executeAndReturnError_(None)

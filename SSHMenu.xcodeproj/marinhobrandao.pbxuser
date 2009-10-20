@@ -88,8 +88,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277747887;
-			PBXWorkspaceStateSaveDate = 277747887;
+			PBXPerProjectTemplateStateSaveDate = 277748042;
+			PBXWorkspaceStateSaveDate = 277748042;
 		};
 		perUserProjectItems = {
 			A1518881108DD98C00495307 = A1518881108DD98C00495307 /* PBXTextBookmark */;
@@ -97,8 +97,10 @@
 			A1518885108DD98C00495307 = A1518885108DD98C00495307 /* PBXTextBookmark */;
 			A1518886108DD98C00495307 = A1518886108DD98C00495307 /* PlistBookmark */;
 			A1518918108DFA3300495307 = A1518918108DFA3300495307 /* PlistBookmark */;
-			A15522BE108E18B000915434 /* PBXTextBookmark */ = A15522BE108E18B000915434 /* PBXTextBookmark */;
-			A1EEEFCB108E113A00CD2A03 = A1EEEFCB108E113A00CD2A03 /* PBXTextBookmark */;
+			A15522C1108E192500915434 = A15522C1108E192500915434 /* PBXTextBookmark */;
+			A1A608FB108E196500F07955 /* PBXTextBookmark */ = A1A608FB108E196500F07955 /* PBXTextBookmark */;
+			A1A608FE108E19AC00F07955 /* PBXTextBookmark */ = A1A608FE108E19AC00F07955 /* PBXTextBookmark */;
+			A1A60901108E1A0700F07955 /* PBXTextBookmark */ = A1A60901108E1A0700F07955 /* PBXTextBookmark */;
 			A1EEEFFD108E187300CD2A03 = A1EEEFFD108E187300CD2A03 /* PBXTextBookmark */;
 		};
 		sourceControlManager = A1985118108DCD8A00650372 /* Source Control */;
@@ -107,9 +109,9 @@
 	};
 	7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1539}}";
-			sepNavSelRange = "{918, 0}";
-			sepNavVisRange = "{728, 628}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1330}}";
+			sepNavSelRange = "{2401, 0}";
+			sepNavVisRange = "{1544, 857}";
 		};
 	};
 	8D1107260486CEB800E47090 /* SSHMenu */ = {
@@ -133,7 +135,7 @@
 		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
 		name = "SSHMenuAppDelegate.py: 41";
 		rLen = 0;
-		rLoc = 910;
+		rLoc = 918;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 857;
@@ -172,12 +174,12 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	A15522BE108E18B000915434 /* PBXTextBookmark */ = {
+	A15522C1108E192500915434 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
 		name = "SSHMenuAppDelegate.py: 38";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 926;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 728;
@@ -219,22 +221,42 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	A1EEEFCB108E113A00CD2A03 /* PBXTextBookmark */ = {
+	A1A608FB108E196500F07955 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
-		name = "SSHMenuAppDelegate.py: 38";
+		name = "SSHMenuAppDelegate.py: 36";
 		rLen = 0;
-		rLoc = 1745;
+		rLoc = 886;
 		rType = 0;
-		vrLen = 662;
-		vrLoc = 1000;
+		vrLen = 810;
+		vrLoc = 1384;
+	};
+	A1A608FE108E19AC00F07955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 13";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 143;
+	};
+	A1A60901108E1A0700F07955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 78";
+		rLen = 0;
+		rLoc = 2401;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1544;
 	};
 	A1EEEFFD108E187300CD2A03 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
 		name = "SSHMenuAppDelegate.py: 38";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 926;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 728;
