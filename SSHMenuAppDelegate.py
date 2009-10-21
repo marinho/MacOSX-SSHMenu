@@ -168,7 +168,7 @@ class SSHMenuAppDelegate(NSObject):
         self.make_menu_items()
         
         # Hides the window
-        self.prefsWindow.orderBack_(sender)
+        self.prefsWindow.orderOut_(sender)
         
     @IBAction
     def removeSSHConnection_(self, sender):
