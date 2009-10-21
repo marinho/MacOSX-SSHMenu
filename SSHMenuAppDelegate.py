@@ -13,7 +13,7 @@ from Foundation import *
 from AppKit import *
 
 class SSHMenuAppDelegate(NSObject):
-    menu_connections = {}
+    menu_connections = None
     prefsWindow = IBOutlet()
     prefsTable = IBOutlet()
     prefsArray = IBOutlet()
@@ -34,7 +34,11 @@ class SSHMenuAppDelegate(NSObject):
         self.make_menu_items()
         
     def clear_menu_items(self):
-        pass # TODO
+        #for item in self.menu_connections.keys():
+        for item in self.statusSub.itemArray():
+            self.statusSub.removeItem_(item)
+            
+        self.menu_connections = {}
 
     def make_menu_items(self):
         self.load_menu_connections()
@@ -61,13 +65,11 @@ class SSHMenuAppDelegate(NSObject):
             fp = file(conf_path)
             cont = fp.read()
             fp.close()
-            
+
+            # Parses the file content
             conf = eval(cont)
             
-            if 'items' in conf:
-                self._ssh_connections = conf['items']
-            else:
-                self._ssh_connections = []
+            self._ssh_connections = conf.get('items', [])
                 
         # If get no success, try using PyYAML
         except SyntaxError:
@@ -75,7 +77,11 @@ class SSHMenuAppDelegate(NSObject):
                 import yaml
             except ImportError: # FIXME
                 sys.path.append('/Library/Python/2.5/site-packages/')
-                import yaml
+                
+                try:
+                    import yaml
+                except ImportError:
+                    raise Exception('Invalid file "~/.sshmenu" format (must be JSON or YAML)')
             
             fp = file(conf_path)
             self._ssh_connections = yaml.load(fp).get('items', [])
@@ -106,6 +112,8 @@ class SSHMenuAppDelegate(NSObject):
     def load_menu_connections(self):
         """Creates the menu itens from the configuration data"""
         self.load_conf_file()
+        
+        self.menu_connections = self.menu_connections or {}
         
         for item in self._ssh_connections:
             menuitem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(
@@ -141,9 +149,21 @@ class SSHMenuAppDelegate(NSObject):
         self._ssh_connections = list(self.prefsArray.arrangedObjects())
         
         self.save_conf_file()
+        self.clear_menu_items()
+        self.make_menu_items()
         
         # Hides the window
         self.prefsWindow.orderBack_(sender)
+        
+    @IBAction
+    def removeSSHConnection_(self, sender):
+        NSLog('Executing removeSSHConnection method')
+        self.prefsArray.removeObjects_(self.prefsArray.selectedObjects())
+        
+    @IBAction
+    def addSSHConnection_(self, sender):
+        NSLog('Executing addSSHConnection method')
+        self.prefsArray.addObject_({'title': 'new title', 'sshparams': 'user@host params'})
 
     def ssh_connections(self):
         self.load_conf_file()
