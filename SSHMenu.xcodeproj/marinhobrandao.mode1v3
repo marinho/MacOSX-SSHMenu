@@ -322,12 +322,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A16EAEBD108E44A200A6C08A</string>
+										<string>A1C75E6C108E6DC000591AF0</string>
 										<key>history</key>
 										<array>
-											<string>A1518881108DD98C00495307</string>
-											<string>A1518918108DFA3300495307</string>
-											<string>A11D2CE4108E3D800099E677</string>
+											<string>A17B169C108E4EE200AA840C</string>
+											<string>A1C1C82D108E57C000FECF2D</string>
+											<string>A1C1C86B108E679D00FECF2D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -391,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A16EAEBB108E44A200A6C08A</string>
+				<string>A1C75E44108E67BE00591AF0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A16EAEBC108E44A200A6C08A</string>
+				<string>A1C75E45108E67BE00591AF0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,6 +527,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>A198510F108DCD8A00650372</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/arquivos/Projects/SSHMenu/SSHMenu.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -607,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A198510F108DCD8A00650372</string>
-				<string>A11D2CDA108E3B070099E677</string>
+				<string>A1C75E4C108E683600591AF0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -727,13 +730,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>A11D2CDB108E3B070099E677</string>
+				<string>A1C75E4D108E683600591AF0</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>A11D2CDC108E3B070099E677</string>
-				<string>A11D2CDD108E3B070099E677</string>
-				<string>A11D2CDE108E3B070099E677</string>
-				<string>A11D2CDF108E3B070099E677</string>
-				<string>A11D2CE0108E3B070099E677</string>
+				<string>A1C75E4E108E683600591AF0</string>
+				<string>A1C75E4F108E683600591AF0</string>
+				<string>A1C75E50108E683600591AF0</string>
+				<string>A1C75E51108E683600591AF0</string>
+				<string>A1C75E52108E683600591AF0</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -860,6 +863,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -895,7 +900,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>A11D2CE1108E3B070099E677</string>
+				<string>A1C75E53108E683600591AF0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -905,7 +910,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
