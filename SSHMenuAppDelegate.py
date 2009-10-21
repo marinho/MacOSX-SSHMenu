@@ -8,12 +8,14 @@
 
 import os, sys
 
+import webbrowser
 from objc import IBAction, IBOutlet
 from Foundation import *
 from AppKit import *
 
 class SSHMenuAppDelegate(NSObject):
     menu_connections = None
+    aboutWindow = IBOutlet()
     prefsWindow = IBOutlet()
     prefsTable = IBOutlet()
     prefsArray = IBOutlet()
@@ -46,6 +48,9 @@ class SSHMenuAppDelegate(NSObject):
         self.statusSub.addItem_(NSMenuItem.separatorItem())
         self.statusSub.addItem_(
             NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Preferences', 'showPreferencesWindow:', '')
+            )
+        self.statusSub.addItem_(
+            NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('About', 'showAboutWindow:', '')
             )
         self.statusSub.addItem_(
             NSMenuItem.alloc().initWithTitle_action_keyEquivalent_('Quit', 'terminate:', '')
@@ -135,6 +140,16 @@ class SSHMenuAppDelegate(NSObject):
         # Brings the Terminal window to front
         script = NSAppleScript.alloc().initWithSource_("tell application \"Terminal\" to activate")
         script.executeAndReturnError_(None)
+
+    @IBAction
+    def showAboutWindow_(self, sender):
+        NSLog('Executing showAboutWindow method')
+        self.aboutWindow.makeKeyAndOrderFront_(sender)
+
+    @IBAction
+    def loadWebSite_(self, sender):
+        NSLog('loadWebSite')
+        webbrowser.open('http://www.marinhobrandao.com/sshmenu/')
 
     @IBAction
     def showPreferencesWindow_(self, sender):
