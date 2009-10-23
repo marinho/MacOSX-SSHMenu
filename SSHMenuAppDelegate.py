@@ -145,6 +145,7 @@ class SSHMenuAppDelegate(NSObject):
     def showAboutWindow_(self, sender):
         NSLog('Executing showAboutWindow method')
         self.aboutWindow.makeKeyAndOrderFront_(sender)
+        NSApplication.sharedApplication().activateIgnoringOtherApps_(YES)
 
     @IBAction
     def loadWebSite_(self, sender):
@@ -155,6 +156,7 @@ class SSHMenuAppDelegate(NSObject):
     def showPreferencesWindow_(self, sender):
         NSLog('Executing showPreferencesWindow method')
         self.prefsWindow.makeKeyAndOrderFront_(sender)
+        NSApplication.sharedApplication().activateIgnoringOtherApps_(YES)
 
     @IBAction
     def savePreferences_(self, sender):

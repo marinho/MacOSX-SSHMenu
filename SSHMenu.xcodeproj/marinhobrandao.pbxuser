@@ -88,28 +88,40 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277785483;
-			PBXWorkspaceStateSaveDate = 277785483;
+			PBXPerProjectTemplateStateSaveDate = 277955362;
+			PBXWorkspaceStateSaveDate = 277955362;
 		};
 		perUserProjectItems = {
 			A1323839108EA54E00DFECD1 /* PBXTextBookmark */ = A1323839108EA54E00DFECD1 /* PBXTextBookmark */;
+			A13361B1109145DE00E50E55 /* PBXTextBookmark */ = A13361B1109145DE00E50E55 /* PBXTextBookmark */;
+			A13361B2109145DE00E50E55 /* PlistBookmark */ = A13361B2109145DE00E50E55 /* PlistBookmark */;
+			A13361B3109145DE00E50E55 /* PBXTextBookmark */ = A13361B3109145DE00E50E55 /* PBXTextBookmark */;
+			A13361B4109145DE00E50E55 /* PBXTextBookmark */ = A13361B4109145DE00E50E55 /* PBXTextBookmark */;
+			A13361B5109145DE00E50E55 /* PBXTextBookmark */ = A13361B5109145DE00E50E55 /* PBXTextBookmark */;
+			A13361B6109145DE00E50E55 /* PBXTextBookmark */ = A13361B6109145DE00E50E55 /* PBXTextBookmark */;
+			A13361B7109145DE00E50E55 /* PlistBookmark */ = A13361B7109145DE00E50E55 /* PlistBookmark */;
+			A13361B8109145DE00E50E55 /* PBXTextBookmark */ = A13361B8109145DE00E50E55 /* PBXTextBookmark */;
 			A1518884108DD98C00495307 /* PBXTextBookmark */ = A1518884108DD98C00495307 /* PBXTextBookmark */;
 			A1518885108DD98C00495307 /* PBXTextBookmark */ = A1518885108DD98C00495307 /* PBXTextBookmark */;
 			A1518886108DD98C00495307 /* PlistBookmark */ = A1518886108DD98C00495307 /* PlistBookmark */;
-			A1A806DB108EAB9C000F40FE /* PlistBookmark */ = A1A806DB108EAB9C000F40FE /* PlistBookmark */;
-			A1A806DC108EAB9C000F40FE /* PBXTextBookmark */ = A1A806DC108EAB9C000F40FE /* PBXTextBookmark */;
-			A1A806DD108EAB9C000F40FE /* PlistBookmark */ = A1A806DD108EAB9C000F40FE /* PlistBookmark */;
-			A1A806EC108EABE1000F40FE /* PBXTextBookmark */ = A1A806EC108EABE1000F40FE /* PBXTextBookmark */;
 		};
 		sourceControlManager = A1985118108DCD8A00650372 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
+	32CA4F630368D1EE00C91783 /* SSHMenu_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 399}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
 	7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 3477}}";
-			sepNavSelRange = "{5645, 0}";
-			sepNavVisRange = "{5285, 772}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 3553}}";
+			sepNavSelRange = "{5378, 0}";
+			sepNavVisRange = "{4986, 707}";
+			sepNavWindowFrame = "{{15, 68}, {750, 705}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* SSHMenu */ = {
@@ -132,6 +144,90 @@
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
+	};
+	A13361B1109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* SSHMenu_Prefix.pch */;
+		name = "SSHMenu_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	A13361B2109145DE00E50E55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = /arquivos/Projects/SSHMenu/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A13361B3109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 159";
+		rLen = 0;
+		rLoc = 5377;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 4986;
+	};
+	A13361B4109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 22";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 178;
+	};
+	A13361B5109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* SSHMenu_Prefix.pch */;
+		name = "SSHMenu_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	A13361B6109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 159";
+		rLen = 0;
+		rLoc = 5377;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 4986;
+	};
+	A13361B7109145DE00E50E55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = /arquivos/Projects/SSHMenu/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A13361B8109145DE00E50E55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
+		name = "SSHMenuAppDelegate.py: 160";
+		rLen = 0;
+		rLoc = 5378;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 4986;
 	};
 	A1518884108DD98C00495307 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -201,49 +297,5 @@
 	A1985119108DCD8A00650372 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	A1A806DB108EAB9C000F40FE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundlePackageType,
-		);
-		name = /arquivos/Projects/SSHMenu/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	A1A806DC108EAB9C000F40FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
-		name = "SSHMenuAppDelegate.py: 152";
-		rLen = 0;
-		rLoc = 5016;
-		rType = 0;
-		vrLen = 736;
-		vrLoc = 4608;
-	};
-	A1A806DD108EAB9C000F40FE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundlePackageType,
-		);
-		name = /arquivos/Projects/SSHMenu/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	A1A806EC108EABE1000F40FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* SSHMenuAppDelegate.py */;
-		name = "SSHMenuAppDelegate.py: 171";
-		rLen = 0;
-		rLoc = 5645;
-		rType = 0;
-		vrLen = 772;
-		vrLoc = 5285;
 	};
 }
