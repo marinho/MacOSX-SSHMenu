@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -325,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A16EF15312EA6BDE0019CC33</string>
+										<string>A16825B112EA6D2200C52C0F</string>
 										<key>history</key>
 										<array>
 											<string>A1683AD112E9C350005B48B3</string>
@@ -341,7 +343,7 @@
 											<string>A1B6120912EA659D009EB631</string>
 											<string>A1B6120A12EA659D009EB631</string>
 											<string>A16EF15212EA6BDE0019CC33</string>
-											<string>A1F477FB12E9ED40003F3018</string>
+											<string>A16EF15312EA6BDE0019CC33</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A16EF15412EA6BDE0019CC33</string>
+				<string>A16825B212EA6D2200C52C0F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A16EF15512EA6BDE0019CC33</string>
+				<string>A16825B312EA6D2200C52C0F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -539,10 +541,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A16EF15E12EA6BDE0019CC33</string>
-		<string>A16EF15F12EA6BDE0019CC33</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>A1310ECD12E9802500948558</string>
 		<string>/arquivos/Projects/MacOSX-SSHMenu/MacOSX-SSHMenu.xcodeproj</string>
 	</array>
@@ -624,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A1310ECD12E9802500948558</string>
-				<string>A16EF15612EA6BDE0019CC33</string>
+				<string>A16825B412EA6D2200C52C0F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

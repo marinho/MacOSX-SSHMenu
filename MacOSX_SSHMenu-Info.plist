@@ -30,5 +30,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleGetInfoString</key>
+	<string>https://github.com/marinho/MacOSX-SSHMenu</string>
 </dict>
 </plist>

@@ -30,14 +30,14 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = A1310EBE12E9802100948558 /* MacOSX-SSHMenu */;
+		activeExecutable = A16825E412EA722C00C52C0F /* MacOSX-SSHMenu */;
 		activeTarget = 8D1107260486CEB800E47090 /* MacOSX-SSHMenu */;
 		addToTargets = (
 			8D1107260486CEB800E47090 /* MacOSX-SSHMenu */,
 		);
 		codeSenseManager = A1310ED012E9802500948558 /* Code sense */;
 		executables = (
-			A1310EBE12E9802100948558 /* MacOSX-SSHMenu */,
+			A16825E412EA722C00C52C0F /* MacOSX-SSHMenu */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -62,25 +62,26 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317352554;
-			PBXWorkspaceStateSaveDate = 317352554;
+			PBXPerProjectTemplateStateSaveDate = 317353241;
+			PBXWorkspaceStateSaveDate = 317353241;
 		};
 		perUserProjectItems = {
-			A1683AD112E9C350005B48B3 /* PBXTextBookmark */ = A1683AD112E9C350005B48B3 /* PBXTextBookmark */;
-			A16EF15212EA6BDE0019CC33 /* PBXTextBookmark */ = A16EF15212EA6BDE0019CC33 /* PBXTextBookmark */;
-			A16EF15312EA6BDE0019CC33 /* PlistBookmark */ = A16EF15312EA6BDE0019CC33 /* PlistBookmark */;
-			A1B6100212EA0E3D009EB631 /* PBXTextBookmark */ = A1B6100212EA0E3D009EB631 /* PBXTextBookmark */;
-			A1B6109112EA1D70009EB631 /* PlistBookmark */ = A1B6109112EA1D70009EB631 /* PlistBookmark */;
-			A1B610D312EA217E009EB631 /* PBXTextBookmark */ = A1B610D312EA217E009EB631 /* PBXTextBookmark */;
-			A1B6113812EA2590009EB631 /* PBXTextBookmark */ = A1B6113812EA2590009EB631 /* PBXTextBookmark */;
-			A1B6119212EA2B00009EB631 /* PBXTextBookmark */ = A1B6119212EA2B00009EB631 /* PBXTextBookmark */;
-			A1B6120812EA659D009EB631 /* PBXTextBookmark */ = A1B6120812EA659D009EB631 /* PBXTextBookmark */;
-			A1B6120912EA659D009EB631 /* PBXTextBookmark */ = A1B6120912EA659D009EB631 /* PBXTextBookmark */;
-			A1B6120A12EA659D009EB631 /* PBXTextBookmark */ = A1B6120A12EA659D009EB631 /* PBXTextBookmark */;
-			A1F477F812E9ED40003F3018 /* PBXTextBookmark */ = A1F477F812E9ED40003F3018 /* PBXTextBookmark */;
-			A1F477F912E9ED40003F3018 /* PBXTextBookmark */ = A1F477F912E9ED40003F3018 /* PBXTextBookmark */;
-			A1F477FA12E9ED40003F3018 /* PBXBookmark */ = A1F477FA12E9ED40003F3018 /* PBXBookmark */;
-			A1F477FB12E9ED40003F3018 /* PlistBookmark */ = A1F477FB12E9ED40003F3018 /* PlistBookmark */;
+			A16825B112EA6D2200C52C0F /* PlistBookmark */ = A16825B112EA6D2200C52C0F /* PlistBookmark */;
+			A1683AD112E9C350005B48B3 = A1683AD112E9C350005B48B3 /* PBXTextBookmark */;
+			A16EF15212EA6BDE0019CC33 = A16EF15212EA6BDE0019CC33 /* PBXTextBookmark */;
+			A16EF15312EA6BDE0019CC33 = A16EF15312EA6BDE0019CC33 /* PlistBookmark */;
+			A1B6100212EA0E3D009EB631 = A1B6100212EA0E3D009EB631 /* PBXTextBookmark */;
+			A1B6109112EA1D70009EB631 = A1B6109112EA1D70009EB631 /* PlistBookmark */;
+			A1B610D312EA217E009EB631 = A1B610D312EA217E009EB631 /* PBXTextBookmark */;
+			A1B6113812EA2590009EB631 = A1B6113812EA2590009EB631 /* PBXTextBookmark */;
+			A1B6119212EA2B00009EB631 = A1B6119212EA2B00009EB631 /* PBXTextBookmark */;
+			A1B6120812EA659D009EB631 = A1B6120812EA659D009EB631 /* PBXTextBookmark */;
+			A1B6120912EA659D009EB631 = A1B6120912EA659D009EB631 /* PBXTextBookmark */;
+			A1B6120A12EA659D009EB631 = A1B6120A12EA659D009EB631 /* PBXTextBookmark */;
+			A1F477F812E9ED40003F3018 = A1F477F812E9ED40003F3018 /* PBXTextBookmark */;
+			A1F477F912E9ED40003F3018 = A1F477F912E9ED40003F3018 /* PBXTextBookmark */;
+			A1F477FA12E9ED40003F3018 = A1F477FA12E9ED40003F3018 /* PBXBookmark */;
+			A1F477FB12E9ED40003F3018 = A1F477FB12E9ED40003F3018 /* PlistBookmark */;
 		};
 		sourceControlManager = A1310ECF12E9802500948558 /* Source Control */;
 		userBuildSettings = {
@@ -96,40 +97,8 @@
 	8D1107260486CEB800E47090 /* MacOSX-SSHMenu */ = {
 		activeExec = 0;
 		executables = (
-			A1310EBE12E9802100948558 /* MacOSX-SSHMenu */,
+			A16825E412EA722C00C52C0F /* MacOSX-SSHMenu */,
 		);
-	};
-	A1310EBE12E9802100948558 /* MacOSX-SSHMenu */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = "MacOSX-SSHMenu";
-		savedGlobals = {
-		};
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
-		variableFormatDictionary = {
-		};
 	};
 	A1310ECF12E9802500948558 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -187,6 +156,44 @@
 			sepNavVisRange = "{2437, 904}";
 		};
 	};
+	A16825B112EA6D2200C52C0F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MacOSX_SSHMenu-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/arquivos/Projects/MacOSX-SSHMenu/MacOSX_SSHMenu-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A16825E412EA722C00C52C0F /* MacOSX-SSHMenu */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "MacOSX-SSHMenu";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
 	A1683AD112E9C350005B48B3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3D80F4B6AC300CF3369 /* MacOSX_SSHMenuAppDelegate.h */;
@@ -216,7 +223,7 @@
 		);
 		name = "/arquivos/Projects/MacOSX-SSHMenu/MacOSX_SSHMenu-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	A1B6100212EA0E3D009EB631 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

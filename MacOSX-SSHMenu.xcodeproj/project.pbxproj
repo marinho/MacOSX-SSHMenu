@@ -16,6 +16,7 @@
 		A1310F0412E98A5700948558 /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = A1310F0312E98A5700948558 /* Host.m */; };
 		A1310F0712E98B4000948558 /* HostsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1310F0612E98B4000948558 /* HostsDataSource.m */; };
 		A15B2F9812E9A03D00EE940B /* SSHMenuIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A15B2F9712E9A03D00EE940B /* SSHMenuIcon.icns */; };
+		A16825E212EA722C00C52C0F /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = A16825E112EA722C00C52C0F /* Credits.html */; };
 		A1B60FFF12EA0E32009EB631 /* Hosts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1B60FFE12EA0E32009EB631 /* Hosts.plist */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,6 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* MacOSX_SSHMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MacOSX_SSHMenu-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* MacOSX-SSHMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOSX-SSHMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1310EEE12E9878300948558 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		A1310EEF12E9878300948558 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		A1310F0212E98A5700948558 /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
@@ -39,6 +39,8 @@
 		A1310F0512E98B4000948558 /* HostsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostsDataSource.h; sourceTree = "<group>"; };
 		A1310F0612E98B4000948558 /* HostsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostsDataSource.m; sourceTree = "<group>"; };
 		A15B2F9712E9A03D00EE940B /* SSHMenuIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SSHMenuIcon.icns; sourceTree = "<group>"; };
+		A16825E112EA722C00C52C0F /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		A16825E312EA722C00C52C0F /* MacOSX-SSHMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MacOSX-SSHMenu.app"; path = "build/Debug/MacOSX-SSHMenu.app"; sourceTree = "<group>"; };
 		A1B60FFE12EA0E32009EB631 /* Hosts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hosts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +91,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* MacOSX-SSHMenu.app */,
+				A16825E312EA722C00C52C0F /* MacOSX-SSHMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A16825E112EA722C00C52C0F /* Credits.html */,
 				A15B2F9712E9A03D00EE940B /* SSHMenuIcon.icns */,
 				8D1107310486CEB800E47090 /* MacOSX_SSHMenu-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -163,7 +166,7 @@
 			name = "MacOSX-SSHMenu";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "MacOSX-SSHMenu";
-			productReference = 8D1107320486CEB800E47090 /* MacOSX-SSHMenu.app */;
+			productReference = A16825E312EA722C00C52C0F /* MacOSX-SSHMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +205,7 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A15B2F9812E9A03D00EE940B /* SSHMenuIcon.icns in Resources */,
 				A1B60FFF12EA0E32009EB631 /* Hosts.plist in Resources */,
+				A16825E212EA722C00C52C0F /* Credits.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
