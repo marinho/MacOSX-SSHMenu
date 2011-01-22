@@ -1,9 +1,0 @@
-How to Install
---------------
-
-Just run the file SSHMenu.app
-
-Depends on
-----------
-
-* If you are going to start from a Gnome SSHMenu .sshmenu file, you will need for PyYAML - http://pyyaml.org/ . Otherwise, this application should work well on your MacOSX 10.5 or higher (not tested on earlier versions).
