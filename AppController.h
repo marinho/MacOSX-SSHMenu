@@ -23,6 +23,8 @@
 - (IBAction) doDeleteHost: (id)pId;
 - (IBAction) doConfirmEditHost: (id)pId;
 - (IBAction) doCancelEditHost: (id)pId;
+- (IBAction) doImport: (id)pId;
+- (IBAction) doExport: (id)pId;
 
 - (void) updateTableView;
 

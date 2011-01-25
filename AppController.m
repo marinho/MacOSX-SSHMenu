@@ -110,6 +110,39 @@
     }
 }
 
+- (IBAction) doImport: (id)pId {
+    int result;
+    
+    NSOpenPanel *panel = [NSOpenPanel openPanel];
+    [panel setRequiredFileType:@"plist"];
+    
+    result = [panel runModalForDirectory:NSHomeDirectory() file:@""];
+    
+    if (result == NSOKButton) {
+        id ds = [hostsTableView dataSource];
+        
+        [ds loadFromFile:[panel filename]];
+        [ds saveToFile:[ds defaultFileName]];
+        [self updateTableView];
+    }
+}
+
+- (IBAction) doExport: (id)pId {
+    int result;
+    
+    NSSavePanel *panel = [NSSavePanel savePanel];
+    [panel setRequiredFileType:@"plist"];
+    
+    result = [panel runModalForDirectory:NSHomeDirectory() file:@""];
+    
+    if (result == NSOKButton) {
+        [[hostsTableView dataSource] saveToFile:[panel filename]];
+    }
+    
+    //[dialog beginSheetModalForWindow:[NSApp mainWindow]
+    //               completionHandler:<#(void (^)(NSInteger result))handler#>];
+}
+
 - (id)hostByIdentifier: (NSString *)identifier {
     id ds = [hostsTableView dataSource];
     id host = nil;

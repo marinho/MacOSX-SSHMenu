@@ -66,10 +66,9 @@
     }
     
     NSString *error;
-    NSData *xmlData = [NSPropertyListSerialization
-        dataFromPropertyList:plist
-        format:NSPropertyListXMLFormat_v1_0
-        errorDescription:&error];
+    NSData *xmlData = [NSPropertyListSerialization dataFromPropertyList:plist
+                                                                 format:NSPropertyListXMLFormat_v1_0
+                                                       errorDescription:&error];
 
     if (xmlData) {
         [xmlData writeToFile:fileName atomically:YES];
@@ -85,11 +84,10 @@
     NSPropertyListFormat format;
     id plist;
     
-    plist = [NSPropertyListSerialization
-             propertyListFromData:xmlData
-             mutabilityOption:NSPropertyListImmutable
-             format:&format
-             errorDescription:&error];
+    plist = [NSPropertyListSerialization propertyListFromData:xmlData
+                                             mutabilityOption:NSPropertyListImmutable
+                                                       format:&format
+                                             errorDescription:&error];
     
     if (!plist) {
         NSLog(error);
@@ -107,7 +105,8 @@
 }
 
 - (NSString *) defaultFileName {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Hosts" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Hosts"
+                                                     ofType:@"plist"];
     return path;
 }
 
